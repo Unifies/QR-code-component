@@ -1,0 +1,50 @@
+body{
+    font-family: 'Outfit';
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.QRContainer{
+    width: 275px;
+    margin: 3rem auto 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.QRCode{
+    width: 90%;
+    margin: auto;
+}
+
+.QRCode img{
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+.QRText{
+    width: 84%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%)
+}
+
+.light{
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%)
+}
+
+.attribution{
+    font-size: 11px; text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
