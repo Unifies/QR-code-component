@@ -1,13 +1,27 @@
+:root {
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    --attribution: hsl(228, 45%, 44%);
+    /* Fonts */
+    --fs-h2: 20px;
+    --fs-p: 14px;
+    --fw-400: 400;
+    --fw-700: 700;
+}
+  
 body{
     font-family: 'Outfit';
     margin: 0;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--Slate-300);
 }
 
 .QRContainer{
     width: 275px;
     margin: 3rem auto 2rem;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--White);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(128, 128, 128, 0.19);
 }
@@ -31,21 +45,22 @@ body{
 }
 
 .bold{
-    font-size: 20px;
-    font-weight: 700;
-    color: hsl(218, 44%, 22%)
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-700);
+    color: var(--Slate-900);
 }
 
 .light{
-    font-size: 14px;
-    font-weight: 400;
-    color: hsl(216, 15%, 48%)
+    font-size: var(--fs-p);
+    font-weight: var(--fw-400);
+    color: var(--Slate-500);
 }
 
 .attribution{
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a{
-    color: hsl(228, 45%, 44%);
+    color: var(--attribution);
 }
